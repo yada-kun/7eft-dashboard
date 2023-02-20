@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "A",
+      "title": "White Shirt",
+      "category": "Mens",
+      "price": 10,
+      "image": "http://cdn.shopify.com/s/files/1/0472/7118/2499/products/60033471-1_1200x1200.jpg",
+      "description": "Plain V-Neck T-Shirt"
+    },
+    {
+      "id": "B",
+      "title": "Black Shirt",
+      "category": "Mens",
+      "price": 10,
+      "image": "https://media.gq.com/photos/6272a2b7d6b46c5aa7f6fb79/master/w_2000,h_1333,c_limit/shirt-3.jpg",
+      "description": "Plain Rounded T-Shirt"
+    },
+    {
+      "id": "C",
+      "title": "Blue Shorts",
+      "category": "Mens",
+      "price": 10,
+      "image": "https://d2t3trus7wwxyy.cloudfront.net/catalog/product/e/v/everyday_basic_kids_shorts_aqua_blue_1.png",
+      "description": "Boxer Shorts"
+    },
+    {
+      "id": "D",
+      "title": "Blue Skirt",
+      "category": "Womens",
+      "price": 10,
+      "image": "https://e7.pngegg.com/pngimages/903/3/png-clipart-blue-skirt-skirt-blue-clothes-skirts.png",
+      "description": "Plain Skirt"
+    },
+    {
+      "id": "E",
+      "title": "Red Dress",
+      "category": "Womens",
+      "price": 10,
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1543425635-jcrew-1543425624.jpg",
+      "description": "Design Sleeveless Dress"
+    },
+    {
+      "id": "F",
+      "title": "Black Skirt",
+      "category": "Womens",
+      "price": 10,
+      "image": "https://www.seekpng.com/png/detail/74-740549_pencil-skirt.png",
+      "description": "Plain Skirt"
+    }
+  ]
+}
