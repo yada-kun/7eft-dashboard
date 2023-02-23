@@ -90,14 +90,17 @@ const AddEditProduct = () => {
   }, [error]);
 
   return (
-    <div className=" m-auto items-center justify-center p-20 ">
+    <div className="m-auto py-40 w-1/2">
       <FormProvider {...methods}>
-        <form onSubmit={handleSubmit(formSubmitHandler)}>
-          <Input name="title" required minLength={10} />
-          <Input name="image" required />
-          <Input name="category" required />
-          <Input name="price" type="number" required />
-          <Input name="description" required />
+        <form
+          className="flex flex-col "
+          onSubmit={handleSubmit(formSubmitHandler)}
+        >
+          <Input name="Title" required minLength={10} />
+          <Input name="Image" required />
+          <Input name="Category" required />
+          <Input name="Price" type="number" required />
+          <Input name="Description" required />
 
           {/* 
           {errors.image && <p className="text-red-500">Image is required</p>} 
@@ -111,7 +114,7 @@ const AddEditProduct = () => {
           {!id ? (
             <button
               type="submit"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="ml-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Save
             </button>
