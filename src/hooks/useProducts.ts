@@ -23,7 +23,7 @@ const useProducts = () => {
 
   // fetch products on mount
   useEffect(() => {
-    if (fetching && fetched && error) {
+    if (fetching || fetched || error) {
       return;
     }
     dispatchFetchProducts();

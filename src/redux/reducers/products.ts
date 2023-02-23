@@ -10,7 +10,7 @@ export type State = {
   error: any;
 };
 
-const InitialState = {
+const InitialState: State = {
   data: [],
   status: {
     fetching: false,
